@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>login page</title>
+<style>
+	body
+	{
+		background-image:url(https://i.pinimg.com/originals/1f/f3/3e/1ff33ede4825194fdbcf0f9b5e27dc93.gif);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.login_main
+	{
+		background-position:center;
+		height:580px;
+		width:1200px;
+		margin:auto;
+		border:2px black solid;
+	}
+	.logo
+	{
+		height:200px;
+		width:220px;
+		float:left;
+	}
+	.text
+	{
+		border:2px black solid;
+		font-size: 60px;
+		float:right;
+		text-shadow:2px 2px gray;
+		background-color:yellow;
+		box-shadow: 0px 0px 10px 5px grey;
+	}
+	.text:hover
+	{
+		background-color:green;
+		box-shadow: 0px 0px 10px 5px black;
+	}
+	.row1
+	{
+		background-position:center;
+		height:270px;
+		width:400px;
+		margin:auto;
+		text-align:center;
+		font-size:25px;
+		border:2px black solid;
+		background-color:rgba(100,70,90,0.5);
+		box-shadow: 0px 0px 10px 5px grey;
+	}
+	.row1:hover
+	{
+		box-shadow: 0px 0px 10px 5px black;
+	}
+	.email
+	{
+		text-align:center;
+		font-size:30px;
+	}
+	.email:hover
+	{
+		color:blue;
+	}
+	.password
+	{
+		text-align:center;
+		font-size:30px;
+	}
+	.password:hover
+	{
+		color:blue;
+	}
+	.forgotpassword
+	{
+		height:20px;
+		width:300px;
+		text-align:center;
+		font-size:30px;
+		text-align:center;
+		margin:auto;
+	}
+	.forgotpassword:hover
+	{
+		background-color:rgba(200,70,0,0.5);
+		box-shadow: 0px 0px 10px 5px gray;
+	}
+	.submit
+	{
+		text-align:center;
+		font-size:30px;
+	}
+	.home
+	{
+		font-size:30px;
+		color:pink;
+		border:2px black solid;
+		height:50px;
+		width:400px;
+		text-align:center;
+		margin:auto;
+		background-color:pink;
+		padding-top:10px;
+		box-shadow: 0px 0px 10px 5px grey;
+	}
+	.home:hover
+	{
+		background-color:rgba(200,70,0,0.5);
+		box-shadow: 0px 0px 10px 5px black;
+	}
+</style>
+</head>
+<body>
+	<form>
+	<div class="login_main">
+		<div class="logo"><img src="logo.png"/></div>
+		<div class="text">FutureReady@12 : Career Guidance</div>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		<div class="row1">
+			</br>
+			<div class="email"><label for="email">Email:</label><input type="email" id="email" name="email" required/></div>
+			</br>
+			<div class="password"><label for="psw">Password:</label><input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/></div>
+			
+			</br>
+			<div class="submit"><a href="choice.html"><input type="submit" name=""/></a></div>
+			</br>
+			<div class="forgotpassword"><a href="forgotpassword.html">Forgot password?</a></div>
+		</div>
+		</br>
+		</br>
+		</br>
+		<div class="home"><a href="home.html">Want to go to Home page?</a></div>
+	</div>
+	</form>
+</body>
+</html>

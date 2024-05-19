@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>signup page</title>
+	<style>
+		body
+		{
+			background-image:url(https://i.pinimg.com/originals/1f/f3/3e/1ff33ede4825194fdbcf0f9b5e27dc93.gif);
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+		.signup_main
+		{
+			background-position:center;
+			height:580px;
+			width:1200px;
+			margin:auto;
+			border:2px black solid;
+		}
+		.logo
+		{
+			height:200px;
+			width:220px;
+			float:left;
+		}
+		.logo:hover
+		{
+			box-shadow: 0px 0px 10px 5px grey;
+		}
+		.text
+		{
+			border:2px black solid;
+			font-size: 60px;
+			float:right;
+			text-shadow:2px 2px gray;
+			background-color:yellow;
+			box-shadow: 0px 0px 10px 5px grey;
+		}
+		.text:hover
+		{
+			background-color:green;
+			box-shadow: 0px 0px 10px 5px black;
+		}
+		.row1
+		{
+			background-position:center;
+			height:370px;
+			width:500px;
+			margin:auto;
+			text-align:center;
+			font-size:25px;
+			border:2px black solid;
+			background-color:pink;
+			box-shadow: 0px 0px 10px 5px grey;
+		}
+		.row1:hover
+		{
+			box-shadow: 0px 0px 10px 5px black;
+		}
+		.firstname:hover
+		{
+			color:blue;
+		}
+		.lastname:hover
+		{
+			color:blue;
+		}
+		.phone_no:hover
+		{
+			color:blue;
+		}
+		.email:hover
+		{
+			color:blue;
+		}
+		.password:hover
+		{
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<div class="signup_main">
+			<div class="logo"><img src="logo.png"/></div>
+			<div class="text">FutureReady@12 : Career Guidance</div>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			<div class="row1">
+				</br>
+				<div class="firstname"><label for="fname">First name:</label><input type="text" id="fname" name="fname" required/></div>
+				<br/>
+				<div class="lastname"><label for="lname">Last name:</label><input type="text" id="lname" name="lname" required/></div>
+				<br/>
+				<div class="phone_no"><label for="phone">Enter a phone number:</label><input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}" required/></div>
+				<br/>
+				<div class="email"><label for="email">Email:</label><input type="email" id="email" name="email" required/></div>
+				<br/>
+				<div class="password"><label for="psw">Password:</label><input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/></div>
+				<br/>
+				<div class="submit"><a href="choice.html"><input type="submit" name=""/></a></div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

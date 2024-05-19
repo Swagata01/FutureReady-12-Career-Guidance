@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>quiz</title>
+<style>
+	body
+	{
+		background-image:url(https://img.freepik.com/premium-vector/quiz-logo-with-speech-bubble-icon_149152-811.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	.main
+	{
+		background-position:center;
+		height:580px;
+		width:1200px;
+		margin:auto;
+		border:2px black solid;
+	}
+	
+	.text
+	{
+		border:2px black solid;
+		font-size: 60px;
+		text-shadow:2px 2px gray;
+		background-color:yellow;
+		box-shadow: 0px 0px 10px 5px grey;
+		text-align:center;
+	}
+	.text:hover
+	{
+		background-color:green;
+		box-shadow: 0px 0px 10px 5px black;
+	}
+	.nextpg
+	{
+		border:2px black solid;
+		font-size:30px;
+		background-color:pink;
+		float:right;
+	}
+	.nextpg:hover
+	{
+		background-color:blue;
+		box-shadow: 0px 0px 10px 5px grey;
+	}
+	.maths
+	{
+		border:2px black solid;
+	}
+	.m
+	{
+		color:red;
+		font-size:40px;
+		text-shadow:2px 2px pink;
+	}
+	.m:hover
+	{
+		color:green;
+	}
+    .m1 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .m1 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .m1 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.m2 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .m2 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .m2 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.m3 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .m3 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .m3 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	
+	.phy
+	{
+		border:2px black solid;
+	}
+	.p
+	{
+		color:blue;
+		font-size:40px;
+		text-shadow:2px 2px pink;
+	}
+	.p:hover
+	{
+		color:red;
+	}
+    .p1 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .p1 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .p1 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.p2 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .p2 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .p2 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.p3 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .p3 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .p3 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	
+	.chem
+	{
+		border:2px black solid;
+	}
+	.c
+	{
+		color:grey;
+		font-size:40px;
+		text-shadow:2px 2px pink;
+	}
+	.c:hover
+	{
+		color:red;
+	}
+    .c1 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .c1 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .c1 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.c2 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .c2 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .c2 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.c3 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .c3 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .c3 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	
+	.bio
+	{
+		border:2px black solid;
+	}
+	.b
+	{
+		color:green;
+		font-size:40px;
+		text-shadow:2px 2px pink;
+	}
+	.b:hover
+	{
+		color:red;
+	}
+    .b1 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .b1 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .b1 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.b2 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .b2 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .b2 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+	.b3 input[type="file"] 
+	{
+		border:1px solid black;
+    }
+    .b3 input[type="submit"] 
+	{
+        background-color: #4CAF50;
+        color: white;
+        border:2px solid black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .b3 input[type="submit"]:hover 
+	{
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+<div class = "main">
+	<div class="text">FutureReady@12 : Career Guidance</div>
+	<div class="nextpg"><a href="quiz1.html">Next >></a></div>
+	<div class="maths">
+		<div class="m">Mathematics</div>
+		<div class="m1">Q1. Evaluate: ∫ 3ax/(b2 +c2x2) dx
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="m2">Q2. Find the vector joining the points P(2, 3, 0) and Q(– 1, – 2, – 4) directed from P to Q.
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="m3">Q3. Find the area of the region bounded by y2 = 9x, x = 2, x = 4 and the x-axis in the first quadrant.
+			<input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+	</div>
+	
+	<div class="phy">
+		<div class="p">Physics</div>
+		<div class="p1">Q1. Obtain the expression for acceleration due to gravity at a height “h” above the earth’s surface.
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="p2">Q2. Derive an expression for the loss in KE in a completely inelastic collision in one dimension.
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="p3">Q3. State the work-energy theorem. Prove it.
+			<input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+	</div>
+	
+	<div class="chem">
+		<div class="c">Chemistry</div>
+		<div class="c1">Q1. Why is FeO (s) not formed in stoichiometric composition?
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="c2">Q2. PH3 forms bubbles when passed slowly in water, but NH3 dissolves. Explain why?
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="c3">Q3. How does the branching of hydrocarbon chains of synthetic detergents affect their biodegradability?
+			<input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+	</div>
+	
+	<div class="bio">
+		<div class="b">Biology</div>
+		<div class="b1">Q1. “The offsprings produced by asexual reproduction are referred to as clones”. Why?
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="b2">Q2. State the significance of mother’s milk to a new-born infant.
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+		<div class="b3">Q3. What Is Chlorophyll?
+			<input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .gif"><input type="submit" value="Upload">
+		</div>
+	</div>
+</div>
+</body>
+</html>
